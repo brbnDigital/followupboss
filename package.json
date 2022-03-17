@@ -1,0 +1,32 @@
+{
+  "name": "@brbndigital/followupboss",
+  "author": "Sebastian Inman <sebastian@brbndigital.com> (https://www.brbndigital.com)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "watch": "tsc --watch",
+    "publish": "npm publish --access=public",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brbnDigital/followupboss.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brbnDigital/followupboss/issues"
+  },
+  "homepage": "https://github.com/brbnDigital/followupboss#readme",
+  "dependencies": {
+    "api": "^4.2.0",
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  }
+}
